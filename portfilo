@@ -1,1 +1,40 @@
-profilo
+<html>
+	<head>
+		<title>About Me</title>
+		<link rel="stylesheet" type="text/css" href="style_master.css" />
+	</head>
+	<body>
+		<div id="main_content">
+			<div id="header">
+				<p class="big">Soren Haurberg</p>
+			</div>
+			<div id="left_column">
+				<nav>
+					<ul>
+						<a href="index.html"><li>Home</li></a>
+						<a href="About.html"><li>About</li></a>
+						<a href="Portfolio.html"><li>Portfolio</li></a>
+						<a href="Contact.html"><li>Contact</li></a>
+					</ul>
+				</nav>
+			</div>
+			<div id="main_column">
+				<article style="width: 800px">
+					<header>My <a href="http://scratch.mit.edu/">scratch</a> project</header>
+					 <iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/11343427/" frameborder="0" allowfullscreen></iframe>
+
+					<aside>
+						Just click the kitty<br />
+					</aside>
+				</article>
+				<article>
+					<header>My other projects</article>
+					<p>The quick brown fox jumped over the lazy dog</p>
+				</article>
+			</div>
+			<div id="footer">
+				<p>Created by: Soren Haurberg - Last Updated: July 2013</p>
+			</div>
+		</div>
+	</body>
+</html>
